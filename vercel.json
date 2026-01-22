@@ -1,16 +1,16 @@
 {
-  "version": 3,
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.ts",
+      "use": "@vercel/edge"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/api/index.ts",
       "methods": ["GET"]
-    }
-  ],
-  "builds": [
-    {
-      "src": "api/index.ts",
-      "use": "@vercel/edge"
     }
   ]
 }
