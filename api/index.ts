@@ -14,7 +14,6 @@ export default function handler(req: Request) {
   const message = random(messages);
 
   const headers = {
-
   };
 
   if (url.pathname.endsWith("/json")) {

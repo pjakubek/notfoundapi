@@ -18,7 +18,6 @@
   "author": "Peter Jakubek",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "@vercel/node": "^1.13.0"
+    "typescript": "^5.2.2"
   }
 }
